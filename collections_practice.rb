@@ -21,17 +21,11 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array2 =[]
-  array.each{ |elem| elem[2]=="$"
-    array2.push(array[elem]
-  }
-end
-array2
-end
 
 def find_a (array)
-  array.each do |elem|
+  array.select do |element|
+    element.chr[0]=="a"
+  end
 end
 
 def sum_array(array)
