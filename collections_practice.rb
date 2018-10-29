@@ -24,7 +24,7 @@ end
 
 def find_a (array)
   array.select do |element|
-    element.chr[0]=="a"
+    element.chr =="a"
   end
 end
 
