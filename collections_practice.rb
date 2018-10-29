@@ -26,6 +26,7 @@ def kesha_maker(array)
   array.each{ |elem| elem[2]=="$"}
 end
 
+def 
 def sum_array(array)
   array.inject(:+)
 end
