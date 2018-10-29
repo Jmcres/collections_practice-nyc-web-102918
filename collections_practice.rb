@@ -31,3 +31,5 @@ end
 def sum_array(array)
   array.inject(:+)
 end
+
+def 
