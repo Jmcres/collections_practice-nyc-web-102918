@@ -26,7 +26,12 @@ def kesha_maker(array)
   array.each{ |elem| elem[2]=="$"}
 end
 
-def 
+def find_a (array)
+  array.select do |elem|
+    elm.chr == "a"
+  end
+end
+
 def sum_array(array)
   array.inject(:+)
 end
