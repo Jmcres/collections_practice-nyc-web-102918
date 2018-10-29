@@ -21,6 +21,7 @@ def reverse_array(array)
   array.reverse
 end
 
+def 
 
 def find_a(array)
   array.select {|elem| elem.start_with?("a")}
