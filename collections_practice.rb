@@ -21,10 +21,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.each do {|word|
-  word.char[2] = "$"
-end
 
 def find_a(array)
   array.select {|elem| elem.start_with?("a")}
