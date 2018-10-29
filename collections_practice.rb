@@ -33,8 +33,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |elem, index|
-    if index == 1 
+  array.collect do |elem|
+    if array[1]== elem
       word 
     else 
       word + "s"
