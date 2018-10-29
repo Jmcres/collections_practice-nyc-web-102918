@@ -21,6 +21,7 @@ def reverse_array(array)
   array.reverse
 end
 
+def 
 
 def find_a (array)
   array.start_with("a")
