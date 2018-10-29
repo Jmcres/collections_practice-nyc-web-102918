@@ -22,9 +22,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each{|elem| elem[2]=="$"}
+  array2 =[]
+  array.each{ |elem| elem[2]=="$"}
 end
 
-def find_a(array)
+def sum_array(array)
   array.inject(:+)
 end
